@@ -107,6 +107,7 @@ const TEACHER = {
     upBackGround: async (req, res) => {
         let teacherId = req.body.teacher_id;
         let bg = req.files?.file;
+	console.log(req.body);
         if (!teacherId || !bg) return res.status(400).json({message: 'MISSING_FIELDS'});
         let newName = __dirname + "/../public/files/bg" + teacherId + ".jpg";
         if (req.files && req.files.file) {
