@@ -36,20 +36,20 @@ function Home() {
                             </React.Fragment>}
                         </div>
                     </div>
-                    <div className="stack">
+                    {/* <div className="stack">
                         <div className="stack-1">
                             <Button5 label={"教師を探す"}/>
-                            {/*<div className="link">*/}
-                            {/*    <img className="icons external-link" src="/images/icons-external-link.svg"*/}
-                            {/*         alt="icons/external-link"/>*/}
-                            {/*    <div className="the-starting-point-f">*/}
-                            {/*        {"ログイン"}*/}
-                            {/*    </div>*/}
-                            {/*</div>*/}
+                            <div className="link">
+                               <img className="icons external-link" src="/images/icons-external-link.svg"
+                                     alt="icons/external-link"/>
+                                <div className="the-starting-point-f">
+                                    {"ログイン"}
+                                </div>
+                            </div>
                         </div>
                         <Button6 label={"教師になる"}/>
-                    </div>
-                    <div className="stack-2">
+                    </div> */}
+                    {/* <div className="stack-2">
                         <div className="the-starting-point-f-1 publicsans-bold-charade-12px">
                             {"CODE BY"}
                         </div>
@@ -71,7 +71,7 @@ function Home() {
                                 alt="icons/platforms/ic_nextjs"
                             />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <img className="webinar-pana-1" src={"/images/webinar-pana-1.png"} alt="Webinar-pana 1"/>
             </div>
